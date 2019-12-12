@@ -17,7 +17,7 @@ describe ('#coin_combos') do
 #   expect(quarter.coin_combos()).to(eq(['quarter', 'quarter', 'quarter']))
 
   it('will will find a coin value when the inputted number is 1, 5, 10, or 25') do
-    quarter = Change.new(0.88)
+    quarter = Change.new(0.75)
     expect(quarter.coin_combos()).to(eq(['quarter', 'quarter', 'penny']))
 end
 
