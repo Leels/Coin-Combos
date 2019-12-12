@@ -20,5 +20,4 @@ describe ('#coin_combos') do
     quarter = Change.new(0.75)
     expect(quarter.coin_combos()).to(eq(['quarter', 'quarter', 'penny']))
 end
-
 end
